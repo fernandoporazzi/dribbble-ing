@@ -1,0 +1,78 @@
+/* helpers */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box__shadow-default {
+  box-shadow: 0 0 20px 0 #888;
+}
+
+
+.application {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding-top: 70px;
+
+  background: #a8d5d5; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ccefe2, #a8d5d5); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(bottom right, #ccefe2, #a8d5d5); /* For Firefox 3.6 to 15 */
+  background: -o-linear-gradient(bottom right, #ccefe2, #a8d5d5); /* For Opera 11.1 to 12.0 */
+  background: linear-gradient(to bottom right, #ccefe2, #a8d5d5); /* Standard syntax (must be last) */
+}
+
+.content {
+  background: #fafafa;
+  width: 850px;
+  height: 519px;
+  margin: 0 auto;
+  font-family: arial;
+}
+
+.content__left {
+  float: left;
+  background: #fff;
+  width: 404px;
+  height: 590px;
+  margin: -35px 0 0 23px;
+}
+
+.content__left h1 {
+  color: #1b4b51;
+  font-size: 15px;
+}
+
+.content__left h2 {
+  color: #6B9DA0;
+}
+
+.content__left h1,
+.content__left h2 {
+  text-align: center;
+}
+
+.image__wrapper {
+  width: 100%;
+}
+
+.image__wrapper img {
+  width: 100%;
+}
+
+.content__right {
+  float: right;
+  width: 340px;
+  outline: 1px solid;
+  margin: 0 43px 0 0;
+}
