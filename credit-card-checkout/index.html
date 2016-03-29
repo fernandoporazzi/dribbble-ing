@@ -37,24 +37,28 @@
 
           <div class="form__control">
             <label for="name">NAME ON CARD</label>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" placeholder="John Doe">
           </div>
 
           <div class="form__control">
             <label for="credit-card-number">CREDIT CARD NUMBER</label>
-            <input type="text" id="credit-card-number" name="credit-card-number">
+            <input type="text" id="credit-card-number" name="credit-card-number" placeholder="9999.9999.9999.9999">
           </div>
 
           <div class="form__control">
             <div class="form__control-half">
-              <label for="expiration-date">MM/YY</label>
-              <input type="text" id="expiration-date" name="expiration-date">
+              <label for="expiration-date">MM/YYYY</label>
+              <input type="text" id="expiration-date" name="expiration-date" placeholder="12/2016">
             </div>
 
             <div class="form__control-half">
               <label for="security-code">CVV</label>
-              <input type="text" id="security-code" name="security-code">
+              <input type="text" id="security-code" name="security-code" placeholder="999">
             </div>
+          </div>
+
+          <div class="form__control">
+            <button type="submit" class="btn-submit box__shadow-default">CHECKOUT</button>
           </div>
         </form>
       </div>
