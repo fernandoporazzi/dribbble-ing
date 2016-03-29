@@ -20,7 +20,43 @@
       </div>
 
       <div class="content__right">
-        f
+        <h3>CREDIT CARD DETAILS</h3>
+
+        <form action="#" method="post">
+          <div class="form__control">
+            <div class="form__control-half">
+              <input type="radio" name="payment-type" id="paypal">
+              <label for="paypal">Paypal</label>
+            </div>
+
+            <div class="form__control-half">
+              <input type="radio" name="payment-type" id="credit-card">
+              <label for="credit-card">Credit Card</label>
+            </div>
+          </div>
+
+          <div class="form__control">
+            <label for="name">NAME ON CARD</label>
+            <input type="text" id="name" name="name">
+          </div>
+
+          <div class="form__control">
+            <label for="credit-card-number">CREDIT CARD NUMBER</label>
+            <input type="text" id="credit-card-number" name="credit-card-number">
+          </div>
+
+          <div class="form__control">
+            <div class="form__control-half">
+              <label for="expiration-date">MM/YY</label>
+              <input type="text" id="expiration-date" name="expiration-date">
+            </div>
+
+            <div class="form__control-half">
+              <label for="security-code">CVV</label>
+              <input type="text" id="security-code" name="security-code">
+            </div>
+          </div>
+        </form>
       </div>
     </div>
 
