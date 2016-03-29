@@ -108,6 +108,35 @@ body {
   margin-top: 31px;
 }
 
+.payment-type {
+  clear: both;
+  margin-left: 25px;
+}
+
+.form__control input[type="radio"] {
+  display: none;
+}
+
+.payment-type:before {
+  background: #ddd;
+  content: '⚫';
+  color: #fff;
+  height: 19px;
+  width: 19px;
+  border: 1px solid #a3b1af;
+  border-radius: 50%;
+  line-height: 19px;
+  margin-left: -25px;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+}
+
+.form__control input[type="radio"]:checked + .payment-type:before {
+  color: #7ECDB9;
+}
+
+
 .form__control label {
   font-size: 13px;
   font-weight: bold;
