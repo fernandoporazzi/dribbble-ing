@@ -11,3 +11,46 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.background__image {
+  background: url('../img/bucharest.jpg') no-repeat center top;
+  background-size: cover;
+  filter: blur(50px);
+  -webkit-filter: blur(50px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: block;
+}
+
+.application {
+  width: 100%;
+  position: absolute;
+  padding: 90px 0;
+  z-index: 2;
+}
+
+.content {
+  width: 1000px;
+  height: 655px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.header {
+  background: url('../img/bucharest.jpg') no-repeat center center;
+  height: 464px;
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.result {
+  background: rgba(255, 255, 255, 0.2);
+  height: 191px;
+  width: 100%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
