@@ -13,7 +13,8 @@ body {
 }
 
 .background__image {
-  background: url('../img/bucharest.jpg') no-repeat center top;
+  background-repeat: no-repeat;
+  background-position: center top;
   background-size: cover;
   filter: blur(50px);
   -webkit-filter: blur(50px);
@@ -40,7 +41,8 @@ body {
 }
 
 .header {
-  background: url('../img/bucharest.jpg') no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 464px;
   width: 100%;
   border-top-left-radius: 7px;
