@@ -26,6 +26,7 @@ body {
 }
 
 .application {
+  font-family: 'Roboto', sans-serif;
   width: 100%;
   position: absolute;
   padding: 90px 0;
@@ -55,4 +56,67 @@ body {
   width: 100%;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
+  color: #fff;
+}
+
+.result__column {
+  float: left;
+  height: 100%;
+  padding-top: 35px;
+}
+
+.result__current-day {
+  width: 370px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+.half__width {
+  width: 50%;
+  float: left;
+}
+
+.result__current-day__first {
+  padding-left: 55px;
+}
+
+.result__current-day__second {
+  padding-left: 40px;
+}
+
+.current-day-temperature {
+  font-size: 100px;
+  letter-spacing: -5px;
+  float: left;
+  line-height: 90px;
+}
+
+.current-day-temperature span {
+  float: left;
+}
+
+.degree {
+  font-size: 50px;
+  margin-top: -26px;
+}
+
+.current-day-date {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  float: left;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.current-day-icon {
+  float: left;
+  font-size: 70px;
+  width: 100%;
+  line-height: 0;
+}
+
+.current-day-info {
+  float: left;
+  margin-top: 23px;
+  font-weight: bold;
 }

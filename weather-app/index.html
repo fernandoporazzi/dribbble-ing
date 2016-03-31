@@ -7,7 +7,9 @@
 
   <title>Weather App</title>
 
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/weather-icons.min.css">
 </head>
 <body>
   <div class="background__image" style="background-image: url('./assets/img/bucharest.jpg');"></div>
@@ -20,7 +22,23 @@
       </div>
 
       <div class="result">
+        <div class="result__column result__current-day">
+          <div class="half__width result__current-day__first">
+            <div class="current-day-temperature">
+              <span>82</span>
+              <span class="degree">&deg;</span></div>
+            <div class="current-day-date">MONDAY, 27</div>
+          </div>
 
+          <div class="half__width result__current-day__second">
+            <div  class="current-day-icon">
+              <i class="wi wi-rain"></i>
+            </div>
+            <div class="current-day-info">
+              4mph  /  67&deg;
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
