@@ -16,8 +16,8 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  filter: blur(50px);
-  -webkit-filter: blur(50px);
+  filter: blur(20px);
+  -webkit-filter: blur(20px);
   position: fixed;
   width: 100%;
   height: 100%;
@@ -44,10 +44,25 @@ body {
 .header {
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
   height: 464px;
   width: 100%;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+}
+
+.search-wrapper {
+  float: left;
+  margin: 50px 0 0 50px;
+  width: 60%;
+}
+
+.search-field {
+  width: 100%;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 0 0 1px #777;
+  outline: none;
 }
 
 .result {
