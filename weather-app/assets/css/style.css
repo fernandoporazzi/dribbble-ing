@@ -62,7 +62,6 @@ body {
 .result__column {
   float: left;
   height: 100%;
-  padding-top: 35px;
 }
 
 .result__current-day {
@@ -77,10 +76,12 @@ body {
 
 .result__current-day__first {
   padding-left: 55px;
+  padding-top: 35px;
 }
 
 .result__current-day__second {
   padding-left: 40px;
+  padding-top: 35px;
 }
 
 .current-day-temperature {
@@ -118,5 +119,43 @@ body {
 .current-day-info {
   float: left;
   margin-top: 23px;
+  font-weight: bold;
+}
+
+.next__days-item {
+  width: 104px;
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.next__days-item:last-child {
+  border: 0;
+}
+
+.next__days-item div {
+  width: 100%;
+  float: left;
+}
+
+.next__days-item .day span {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.next__days-item .icon {
+  margin: 20px 0 15px;
+}
+
+.next__days-item .icon i {
+  font-size: 35px;
+}
+
+.next__days-item .temp {
   font-weight: bold;
 }
